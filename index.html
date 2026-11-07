@@ -22,7 +22,7 @@ button{font:inherit;border:0;border-radius:12px;padding:12px 20px;cursor:pointer
 <body><div class="wrap">
 <div class="hero"><h1>استبيان المواهب الروحية</h1><p>استبيان هووتس المعدل بواسطة فاجنر</p><p>أجب عن 125 عبارة بناءً على خبراتك السابقة، ثم اعرض درجات العطايا الروحية.</p></div>
 <div class="note">تنبيه: نتائج الاستبيان ليست نهائية أو قطعية. استخدمها للصلاة والتفكير والتجربة، واستشر مؤمنين آخرين لتأكيد العطايا. إذا كان عمرك أقل من 25 عامًا أو كنت حديث الإيمان (أقل من 6 أشهر)، فتعامل مع النتائج بحذر أكبر.</div>
-<div class="card"><label for="username"><b>الاسم (اختياري)</b></label><input id="username" type="text" placeholder="اكتب اسمك هنا"><p class="small">تمت الإجابة على <b id="count">0</b> من 125 سؤالًا</p><div class="progress"><div id="progress"></div></div></div>
+
 <div id="questions"></div>
 <div class="actions"><button class="primary" id="showResult">عرض النتيجة</button><button class="secondary" id="reset">مسح الإجابات</button></div>
 <div id="results" class="card"><h2>نتيجتك في العطايا الروحية</h2><div id="greeting"></div><div class="resulttop"><b>أعلى ثلاث عطايا لديك حسب درجات الاستبيان:</b><div id="top3"></div></div><h3>جميع الدرجات</h3><div id="allScores"></div><p class="small">الدرجة القصوى لكل عطية هي 15 نقطة. النتيجة مؤشر للتأمل وليست حكمًا نهائيًا على عطاياك.</p><div class="actions"><button class="secondary" onclick="window.print()">طباعة / حفظ النتيجة PDF</button><button class="primary" id="backToQuestions">العودة للإجابات</button></div></div>
